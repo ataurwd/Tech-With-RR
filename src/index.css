@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+
+
+html{
+    overflow-y: scroll;
+}
+
+.welcome-back{
+    font-family: "Rancho", serif;
+}
+
+.hu__hu__ { animation: hu__hu__ infinite 1s ease-in-out }
+@keyframes hu__hu__ {
+    30% { transform: translateY(30px) }
+}
